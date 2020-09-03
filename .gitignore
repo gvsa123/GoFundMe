@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Files
+
+/data_testing
+/raw_data
+WebDriver
+*.csv
+*.odt
+*.txt
