@@ -34,7 +34,7 @@ The column `story_tokens` is a tokenized copy of the header: `c_story` (campaign
 
 
 
-## Descriptive Statistics
+## Descriptive Summary
 
 Below is a quick summary of the different campaign categories within the dataset. The first table shows the total number of campaigns per category. The second table compares the category with the most amount raised and shows the *mean* number of donors per campaign .
 
@@ -60,7 +60,7 @@ Below is a quick summary of the different campaign categories within the dataset
 |`newlywed-fundraiser`|	191|
 |`environment-fundraising`|	9|
 
-
+\b
 
 |**m_campaign**|**donors**|**raised**|
 |----------|:-----|-----:|
