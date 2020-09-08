@@ -58,9 +58,11 @@ Below is a quick summary of the different campaign categories within the dataset
 |`wishes-fundraiser`|	341|
 |`competition-fundraiser`|	338|
 |`newlywed-fundraiser`|	191|
-|`environment-fundraising`|	9|
+|`environment-fundraising`|	9|  
 
-\b
+
+
+
 
 |**m_campaign**|**donors**|**raised**|
 |----------|:-----|-----:|
@@ -81,5 +83,5 @@ Below is a quick summary of the different campaign categories within the dataset
 |`wishes-fundraiser`|	15.98|	2,111.20|
 |`environment-fundraising`|	20.29|	1,760.33|
 |`faith-fundraiser`|	19.70|	1,591.90|
-|`event-fundraiser`|	18.05|	1,140.53|
+|`event-fundraiser`|	18.05|	1,140.53|  
 
