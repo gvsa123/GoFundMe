@@ -85,7 +85,7 @@ Below is a quick summary of the different campaign categories within the dataset
 
 # File System
 
-## Projects/RA2/GoFundMe/
+## Project Files
 
 - `combine_df.py`   :   Combine csv files
 - `data_cleaning.ipynb`     :   Initial data processing
