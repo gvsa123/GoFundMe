@@ -36,7 +36,7 @@ The column `story_tokens` is a tokenized copy of the header: `c_story` (campaign
 
 ## Descriptive Summary
 
-Below is a quick summary of the different campaign categories within the dataset. The first table shows the total number of campaigns per category. The second table compares the category with the most amount raised and shows the *mean* number of donors per campaign .
+Below is a quick summary of the different campaign categories within the dataset. The first table shows the total number of campaigns per category. The second table compares the *median* number of donors and amount raised per category. 
 
 
 |**Category**|**Number of Campaigns**|
@@ -62,26 +62,24 @@ Below is a quick summary of the different campaign categories within the dataset
 
 
 
-
-
 |**m_campaign**|**donors**|**raised**|
-|----------|:-----|-----:|
-|`competition-fundraiser`|	63.36|	2,961,875.28|
-|`newlywed-fundraiser`|	17.96|	1,395,502.04|
-|`travel-fundraiser`|	64.64|	264,085.01|
-|`medical-fundraiser`|	201.33|	31,943.06|
-|`memorial-fundraiser`|	218.95|	28,224.20|
-|`emergency-fundraiser`|	190.52|	26,020.81|
-|`community-fundraiser`|	84.28|	11,660.54|
-|`family-fundraiser`|	102.96|	11,300.43|
-|`animal-fundraiser`|	80.82|	6,078.93|
-|`education-fundraiser`|	51.66|	5,723.30|
-|`volunteer-fundraiser`|	38.23|	4,385.90|
-|`business-fundraiser`|	52.92|	4,384.40|
-|`creative-fundraiser`|	31.04|	3,590.32|
-|`sports-fundraiser`|	33.72|	3,029.88|
-|`wishes-fundraiser`|	15.98|	2,111.20|
-|`environment-fundraising`|	20.29|	1,760.33|
-|`faith-fundraiser`|	19.70|	1,591.90|
-|`event-fundraiser`|	18.05|	1,140.53|  
+|--------------|----------|----------|
+|`medical-fundraiser`|	167.00|	25,475.00|
+|`memorial-fundraiser`|	172.00|	20,062.50|
+|`emergency-fundraiser`|	151.00|	17,444.50|
+|`family-fundraiser`|	64.00|	6,265.00|
+|`community-fundraiser`|	49.00|	4,650.50|
+|`animal-fundraiser`|	56.00|	3,605.00|
+|`education-fundraiser`|	31.00|	3,045.00|
+|`volunteer-fundraiser`|	27.00|	2,240.00|
+|`creative-fundraiser`|	24.00|	2,010.00|
+|`business-fundraiser`|	27.50|	2,000.00|
+|`sports-fundraiser`|	24.00|	1,795.00|
+|`wishes-fundraiser`|	13.00|	1,015.00|
+|`newlywed-fundraiser`|	12.00|	993.00|
+|`environment-fundraising`|	19.00|	885.00|
+|`faith-fundraiser`|	9.00|	537.50|
+|`event-fundraiser`|	12.00|	520.00|
+|`travel-fundraiser`|	33.00|	413.00|
+|`competition-fundraiser`|	39.00|	150.00|
 
