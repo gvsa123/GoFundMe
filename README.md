@@ -83,3 +83,16 @@ Below is a quick summary of the different campaign categories within the dataset
 |`travel-fundraiser`|	33.00|	413.00|
 |`competition-fundraiser`|	39.00|	150.00|
 
+# File System
+
+## Projects/RA2/GoFundMe/
+
+- `combine_df.py`   :   Combine csv files
+- `data_cleaning.ipynb`     :   Initial data processing
+- `gofund_links_scraper.py`     :   Script for links
+- `gofund_stats.ipynb`      :   Data analysis with Pandas
+- `is_unique.py`    :    Unique campaign urls
+- `profile.ipynb`   :   Profile writeup
+- `scrape_by_campaign.py`   :   Data miner
+- `sent_tokens.ipynb`   :   Test tokenization
+- `txt_to_csv.py`   :   Write out txt to csv
