@@ -2,6 +2,22 @@
 
 The GoFundMe dataset is part of the training data for the [CommonFrame](https://ra2.io/products) project. It is a collection of the individual fund raising campaigns available through the [GoFundMe](https://ca.gofundme.com/) website. The dataset was designed to inform machine learning technologies about effective communications and campaign strategies to maximize stakeholder objectives.
 
+## File System
+
+Below is a list of files reflecting the entire process of mining the intial data, preprocessing raw text files, and transforming the resulting dataframe into usable information.
+
+### Project Files
+
+- `combine_df.py`   :   Combine csv files
+- `data_cleaning.ipynb`     :   Initial data processing
+- `gofund_links_scraper.py`     :   Script for links
+- `gofund_stats.ipynb`      :   Data analysis with Pandas
+- `is_unique.py`    :    Unique campaign urls
+- `profile.ipynb`   :   Profile writeup
+- `scrape_by_campaign.py`   :   Data miner
+- `sent_tokens.ipynb`   :   Test tokenization
+- `txt_to_csv.py`   :   Write out txt to csv
+
 ## Data Collection
 
 The GoFundMe dataset was collected using Python web technologies and is stored in *csv* format. Each campaign category from the GoFundMe website was loaded until all active campaigns were cached. The resulting urls were then stored in a separate file, where each url representing individual campaigns was loaded onto a custom built webscraper that targeted elements relevant to the project. The resulting html object is then analyzed to return only the relevant information for the project. The resulting csv file is then stored to disk and imported as a dataframe where further data processing is conducted. The final dataset is again stored in csv format and passed on to the CommonFrame database for further annotation by researchers. This forms the initial training data for machine learning models.
@@ -82,17 +98,3 @@ Below is a quick summary of the different campaign categories within the dataset
 |`event-fundraiser`|	12.00|	520.00|
 |`travel-fundraiser`|	33.00|	413.00|
 |`competition-fundraiser`|	39.00|	150.00|
-
-# File System
-
-## Project Files
-
-- `combine_df.py`   :   Combine csv files
-- `data_cleaning.ipynb`     :   Initial data processing
-- `gofund_links_scraper.py`     :   Script for links
-- `gofund_stats.ipynb`      :   Data analysis with Pandas
-- `is_unique.py`    :    Unique campaign urls
-- `profile.ipynb`   :   Profile writeup
-- `scrape_by_campaign.py`   :   Data miner
-- `sent_tokens.ipynb`   :   Test tokenization
-- `txt_to_csv.py`   :   Write out txt to csv
